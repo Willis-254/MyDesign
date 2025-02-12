@@ -1,0 +1,72 @@
+body {
+    font-family: Cooper Hewitt;
+    font-size: 16px;
+    /* background-color: blue; */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sally_1{
+    height: 100vh;
+    background-image: url('../assets/sally_1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    position: fixed;
+    /* margin: 20px,auto,auto 20px; */
+    top: 20px; 
+    left: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+footer a{
+    margin-right: 5px;
+}
+
+a:hover{
+    color:lightslategray;
+}
+
+.sally_2{
+    background-image: url('../assets/sally_2.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.sally_3{
+    background-image: url('../assets/sally_3.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sally_4{
+    background-image: url('../assets/sally_4.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+    overscroll-behavior: none;
+    /* overflow: hidden; */
+    /* position: fixed; */
+}
